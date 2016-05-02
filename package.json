@@ -1,0 +1,26 @@
+{
+  "name": "bulma-loader",
+  "version": "0.1.0",
+  "description": "A Webpack loader for Bulma, a modern CSS framework based on Flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stipsan/bulma-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "loader",
+    "bulma",
+    "sass"
+  ],
+  "author": "Stian Didriksen <stipsan@gmail.com> (http://github.com/stipsan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stipsan/bulma-loader/issues"
+  },
+  "homepage": "https://github.com/stipsan/bulma-loader#readme"
+}
