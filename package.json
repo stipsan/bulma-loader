@@ -1,6 +1,6 @@
 {
   "name": "bulma-loader",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Webpack loader for Bulma, a modern CSS framework based on Flexbox",
   "main": "index.js",
   "scripts": {
