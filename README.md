@@ -75,7 +75,7 @@ Assuming your style codebase is already split into modules and local by default:
 
 `./src/components/Welcome/index.jsx`
 ```javascript
-import style from 'style.scss'
+import style from './style.scss'
 
 export const Welcome = () => <div className={style.hero}>
   <div className={style['hero-content']}>
