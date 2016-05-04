@@ -15,7 +15,8 @@
     "webpack-loader",
     "loader",
     "bulma",
-    "sass"
+    "sass",
+    "css-modules"
   ],
   "author": "Stian Didriksen <stipsan@gmail.com> (http://github.com/stipsan)",
   "license": "MIT",
