@@ -2,9 +2,16 @@ var loaderUtils = require('loader-utils');
 var path = require('path');
 var fs = require('fs');
 
+var bulmaPattern = /node_modules\/bulma\/.+sass$/;
+
 module.exports = function (source) {
   if (this.cacheable) this.cacheable();
   var callback  = this.async();
+  
+  // Only act on bulma sass imports
+  if(!bulmaPattern.test(this.resourcePath)) {
+    return callback(null, source);
+  }
   
   var config = loaderUtils.getLoaderConfig(this, 'bulmaLoader');
   var themeName = config.theme;
