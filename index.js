@@ -1,22 +1,22 @@
+var loaderUtils = require('loader-utils');
 var path = require('path');
 var fs = require('fs');
 
 module.exports = function (source) {
   if (this.cacheable) this.cacheable();
   var callback  = this.async();
-  var options   = this.options.bulma || {};
-  var themeName = options.theme;
+  
+  var config = loaderUtils.getLoaderConfig(this, 'bulmaLoader');
+  var themeName = config.theme;
   
   if (!themeName) {
-    // @TODO return error and advice how to configure the plugin
-    return callback(new Error('Plugin not configured!'))
+    return callback(new Error('No `theme` specified in the bulma-loader options! See: https://github.com/stipsan/bulma-loader#usage'))
   }
   
   var themePath = path.resolve(themeName);
 
   var themeExists = fs.existsSync(themePath);
   if (!themeExists) {
-    // @TODO return error and advice how to configure the plugin
     return callback(new Error(`The path ${themePath} does not exist!`))
   }
 

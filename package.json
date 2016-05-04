@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/stipsan/bulma-loader/issues"
   },
-  "homepage": "https://github.com/stipsan/bulma-loader#readme"
+  "homepage": "https://github.com/stipsan/bulma-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.14"
+  }
 }
