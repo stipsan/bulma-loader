@@ -2,9 +2,7 @@
 
 A Webpack loader for Bulma, a modern CSS framework based on Flexbox
 
-```
-npm install --save-dev bulma-loader
-```
+[![NPM](https://nodei.co/npm/bulma-loader.png)](https://www.npmjs.com/package/bulma-loader)
 
 # When should I use this?
 
