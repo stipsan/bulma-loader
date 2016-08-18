@@ -38,7 +38,7 @@ Inside your webpack config object:
   bulmaLoader: {
     theme: 'sass/bulma.sass'
   },
-  plugins: [
+  loaders: [
     {
       test: /\.scss$/,
       loaders: ["style", "css?modules&importLoaders=2", "sass", "bulma"]
