@@ -2,7 +2,8 @@
 
 A Webpack loader for Bulma, a modern CSS framework based on Flexbox
 
-[![NPM](https://nodei.co/npm/bulma-loader.png)](https://www.npmjs.com/package/bulma-loader)
+[![NPM](https://nodei.co/npm/bulma-loader.png?downloadRank=true)](https://www.npmjs.com/package/bulma-loader)
+[![NPM](https://nodei.co/npm-dl/bulma-loader.png?months=3&height=2)](https://nodei.co/npm/bulma-loader/)
 
 # When should I use this?
 
