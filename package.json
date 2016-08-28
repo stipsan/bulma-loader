@@ -31,6 +31,6 @@
     "webpack": "*"
   },
   "dependencies": {
-    "loader-utils": "^0.2.14"
+    "loader-utils": "0.2.15"
   }
 }
