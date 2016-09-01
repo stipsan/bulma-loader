@@ -25,7 +25,7 @@ Assuming you put your variables here: `./sass/bulma.sass`
 
 ```javascript
 {
-  test: /\.scss$/,
+  test: /\.sass/,
   loaders: ["style", "css?modules&importLoaders=2", "sass", "bulma?theme=sass/bulma.sass"]
 }
 ```
@@ -41,7 +41,7 @@ Inside your webpack config object:
   },
   loaders: [
     {
-      test: /\.scss$/,
+      test: /\.sass/,
       loaders: ["style", "css?modules&importLoaders=2", "sass", "bulma"]
     }
   ]
@@ -52,7 +52,7 @@ Inside your webpack config object:
 
 Assuming your style codebase is already split into modules and local by default:
 
-`./src/components/Welcome/style.scss`
+`./src/components/Welcome/style.sass`
 ```css
 
 .hero {
@@ -72,9 +72,9 @@ Assuming your style codebase is already split into modules and local by default:
 
 ```
 
-`./src/components/Welcome/index.jsx`
+`./src/components/Welcome/index.js`
 ```javascript
-import style from './style.scss'
+import style from './style.sass'
 
 export const Welcome = () => <div className={style.hero}>
   <div className={style['hero-content']}>
