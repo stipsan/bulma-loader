@@ -28,7 +28,7 @@
     "css-loader": "0.25.0",
     "sass-loader": "4.0.2",
     "style-loader": "*",
-    "webpack": "1.13.2"
+    "webpack": "1.13.3"
   },
   "dependencies": {
     "loader-utils": "0.2.16"
