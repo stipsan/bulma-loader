@@ -26,7 +26,7 @@
   "homepage": "https://github.com/stipsan/bulma-loader#readme",
   "peerDependencies": {
     "css-loader": "0.26.1",
-    "sass-loader": "4.1.1",
+    "sass-loader": "5.0.0",
     "style-loader": "*",
     "webpack": "2.2.1"
   },
