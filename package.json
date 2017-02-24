@@ -27,7 +27,7 @@
   "peerDependencies": {
     "css-loader": "0.26.1",
     "sass-loader": "6.0.2",
-    "style-loader": "*",
+    "style-loader": "0.13.2",
     "webpack": "2.2.1"
   },
   "dependencies": {
