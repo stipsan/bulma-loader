@@ -1,5 +1,7 @@
 # Bulma Loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stipsan/bulma-loader.svg)](https://greenkeeper.io/)
+
 A Webpack loader for Bulma, a modern CSS framework based on Flexbox
 
 [![NPM](https://nodei.co/npm/bulma-loader.png?downloadRank=true)](https://www.npmjs.com/package/bulma-loader)
