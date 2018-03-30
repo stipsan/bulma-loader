@@ -1,3 +1,7 @@
+# This project is no longer maintained
+
+Contact me if you'd like to take over this project and I'll transfer the git repo and npm package name 😄
+
 # Bulma Loader
 
 A Webpack loader for Bulma, a modern CSS framework based on Flexbox
